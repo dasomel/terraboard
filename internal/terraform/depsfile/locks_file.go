@@ -15,7 +15,7 @@ import (
 	"github.com/camptocamp/terraboard/internal/terraform/getproviders"
 	"github.com/camptocamp/terraboard/internal/terraform/replacefile"
 	"github.com/camptocamp/terraboard/internal/terraform/tfdiags"
-	"github.com/hashicorp/terraform/version"
+	"github.com/camptocamp/terraboard/internal/terraform/version"
 )
 
 // LoadLocksFromFile reads locks from the given file, expecting it to be a

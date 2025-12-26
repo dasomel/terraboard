@@ -6,7 +6,7 @@ package statemgr
 import (
 	"github.com/camptocamp/terraboard/internal/terraform/states"
 	"github.com/camptocamp/terraboard/internal/terraform/states/statefile"
-	"github.com/hashicorp/terraform/version"
+	"github.com/camptocamp/terraboard/internal/terraform/version"
 )
 
 // NewStateFile creates a new statefile.File object, with a newly-minted

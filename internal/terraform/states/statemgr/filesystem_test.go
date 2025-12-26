@@ -16,7 +16,7 @@ import (
 	"github.com/camptocamp/terraboard/internal/terraform/addrs"
 	"github.com/camptocamp/terraboard/internal/terraform/states"
 	"github.com/camptocamp/terraboard/internal/terraform/states/statefile"
-	tfversion "github.com/hashicorp/terraform/version"
+	tfversion "github.com/camptocamp/terraboard/internal/terraform/version"
 )
 
 func TestFilesystem(t *testing.T) {

@@ -23,7 +23,7 @@ import (
 	"github.com/camptocamp/terraboard/internal/terraform/addrs"
 	"github.com/camptocamp/terraboard/internal/terraform/httpclient"
 	"github.com/camptocamp/terraboard/internal/terraform/logging"
-	"github.com/hashicorp/terraform/version"
+	"github.com/camptocamp/terraboard/internal/terraform/version"
 )
 
 const (

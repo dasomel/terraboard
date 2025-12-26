@@ -13,8 +13,8 @@ import (
 	"text/template"
 	"time"
 
+	"github.com/camptocamp/terraboard/internal/terraform/version"
 	uuid "github.com/hashicorp/go-uuid"
-	"github.com/hashicorp/terraform/version"
 )
 
 var rngSource = rand.New(rand.NewSource(time.Now().UnixNano()))

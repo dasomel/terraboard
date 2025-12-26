@@ -11,7 +11,7 @@ import (
 	"github.com/camptocamp/terraboard/internal/terraform/states"
 	"github.com/camptocamp/terraboard/internal/terraform/states/statefile"
 	"github.com/camptocamp/terraboard/internal/terraform/states/statemgr"
-	"github.com/hashicorp/terraform/version"
+	"github.com/camptocamp/terraboard/internal/terraform/version"
 )
 
 func TestState_impl(t *testing.T) {

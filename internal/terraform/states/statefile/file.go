@@ -4,7 +4,7 @@ import (
 	version "github.com/hashicorp/go-version"
 
 	"github.com/camptocamp/terraboard/internal/terraform/states"
-	tfversion "github.com/hashicorp/terraform/version"
+	tfversion "github.com/camptocamp/terraboard/internal/terraform/version"
 )
 
 // File is the in-memory representation of a state file. It includes the state

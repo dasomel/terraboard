@@ -7,7 +7,7 @@ import (
 	"net/url"
 	"testing"
 
-	"github.com/hashicorp/terraform/version"
+	"github.com/camptocamp/terraboard/internal/terraform/version"
 )
 
 func TestNew_userAgent(t *testing.T) {

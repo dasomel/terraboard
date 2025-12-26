@@ -30,7 +30,6 @@ require (
 	github.com/hashicorp/go-uuid v1.0.3
 	github.com/hashicorp/go-version v1.6.0
 	github.com/hashicorp/hcl/v2 v2.19.1
-	github.com/hashicorp/terraform v1.6.6
 	github.com/hashicorp/terraform-svchost v0.1.1
 	github.com/jessevdk/go-flags v1.5.0
 	github.com/machinebox/graphql v0.2.2

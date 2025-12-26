@@ -18,10 +18,10 @@ import (
 	"github.com/camptocamp/terraboard/internal/terraform/logging"
 	"github.com/camptocamp/terraboard/internal/terraform/registry/regsrc"
 	"github.com/camptocamp/terraboard/internal/terraform/registry/response"
+	"github.com/camptocamp/terraboard/internal/terraform/version"
 	"github.com/hashicorp/go-retryablehttp"
 	svchost "github.com/hashicorp/terraform-svchost"
 	"github.com/hashicorp/terraform-svchost/disco"
-	"github.com/hashicorp/terraform/version"
 )
 
 const (

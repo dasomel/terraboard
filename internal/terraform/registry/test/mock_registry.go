@@ -13,10 +13,10 @@ import (
 	"github.com/camptocamp/terraboard/internal/terraform/httpclient"
 	"github.com/camptocamp/terraboard/internal/terraform/registry/regsrc"
 	"github.com/camptocamp/terraboard/internal/terraform/registry/response"
+	tfversion "github.com/camptocamp/terraboard/internal/terraform/version"
 	svchost "github.com/hashicorp/terraform-svchost"
 	"github.com/hashicorp/terraform-svchost/auth"
 	"github.com/hashicorp/terraform-svchost/disco"
-	tfversion "github.com/hashicorp/terraform/version"
 )
 
 // Disco return a *disco.Disco mapping registry.terraform.io, localhost,

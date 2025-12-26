@@ -4,8 +4,8 @@ import (
 	"fmt"
 
 	"github.com/camptocamp/terraboard/internal/terraform/experiments"
+	"github.com/camptocamp/terraboard/internal/terraform/version"
 	"github.com/hashicorp/hcl/v2"
-	"github.com/hashicorp/terraform/version"
 	"github.com/zclconf/go-cty/cty"
 )
 

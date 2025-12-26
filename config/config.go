@@ -7,7 +7,7 @@ import (
 	"net/http"
 	"os"
 
-	tfversion "github.com/hashicorp/terraform/version"
+	tfversion "github.com/camptocamp/terraboard/internal/terraform/version"
 	"github.com/jessevdk/go-flags"
 	log "github.com/sirupsen/logrus"
 	"gopkg.in/yaml.v2"

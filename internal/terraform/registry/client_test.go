@@ -11,9 +11,9 @@ import (
 	"github.com/camptocamp/terraboard/internal/terraform/httpclient"
 	"github.com/camptocamp/terraboard/internal/terraform/registry/regsrc"
 	"github.com/camptocamp/terraboard/internal/terraform/registry/test"
+	tfversion "github.com/camptocamp/terraboard/internal/terraform/version"
 	version "github.com/hashicorp/go-version"
 	"github.com/hashicorp/terraform-svchost/disco"
-	tfversion "github.com/hashicorp/terraform/version"
 )
 
 func TestConfigureDiscoveryRetry(t *testing.T) {
