@@ -329,6 +329,10 @@ func (fs snapshotFS) Chtimes(name string, atime, mtime time.Time) error {
 	return fmt.Errorf("cannot set file times inside configuration snapshot")
 }
 
+func (fs snapshotFS) Chown(name string, uid, gid int) error {
+	return fmt.Errorf("cannot change owner inside configuration snapshot")
+}
+
 type snapshotFile struct {
 	snapshotFileStub
 	src []byte
