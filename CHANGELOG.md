@@ -1,5 +1,19 @@
 # Changelog
 
+### [2.4.1](https://www.github.com/dasomel/terraboard/compare/v2.4.0...v2.4.1) (2025-12-29)
+
+
+### Bug Fixes
+
+* **build:** disable CGO, strip binary, and pass VERSION arg for robust multi-arch build ([d7c666c](https://www.github.com/dasomel/terraboard/commit/d7c666cca53757ee72ed97fe5bed5a3dcc221618))
+* **build:** remove external linker flags incompatible with CGO_ENABLED=0 ([2b301a3](https://www.github.com/dasomel/terraboard/commit/2b301a36cfd3a7fd11892e5dd48ef9c2fde3973a))
+* **ci:** update Go version to 1.23 and actions to latest versions ([fb698d9](https://www.github.com/dasomel/terraboard/commit/fb698d97985a70c0ae727a4e652be1a7a31aebaf))
+* **docker:** use native cross-compilation and pinned build platform ([e6e1765](https://www.github.com/dasomel/terraboard/commit/e6e1765716a2737f7cd82858f7dd8a9e30f14487))
+* Implement missing Chown method for snapshotFS ([12905e0](https://www.github.com/dasomel/terraboard/commit/12905e00f2c611363d15109235dd0e6fc3e29f97))
+* **lint:** replace deprecated io/ioutil, fix nil check, and configure golangci-lint ([60e16ca](https://www.github.com/dasomel/terraboard/commit/60e16ca28c7ca7159f0447f46e292b90fb10cefe))
+* **lint:** replace io.WriteString with w.Write and rename 'new' parameter ([ece95a8](https://www.github.com/dasomel/terraboard/commit/ece95a8b5a93ed51fe47e35ec881e32d51785089))
+* **lint:** replace io.WriteString with w.Write in main.go ([07bdcd4](https://www.github.com/dasomel/terraboard/commit/07bdcd46896cb93c2e47e88472ebefaa18506d8e))
+
 ## [2.4.1](https://github.com/dasomel/terraboard/compare/v2.4.0...v2.4.1) (2025-12-29)
 
 ### Features
