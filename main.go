@@ -13,7 +13,6 @@ package main
 import (
 	"encoding/json"
 	"fmt"
-	"io"
 	"net/http"
 	"os"
 	"path/filepath"
@@ -132,7 +131,7 @@ func getVersion(w http.ResponseWriter, _ *http.Request) {
 		api.JSONError(w, "Failed to marshal version", err)
 		return
 	}
-	if _, err := io.WriteString(w, string(j)); err != nil {
+	if _, err := w.Write(j); err != nil {
 		log.Error(err.Error())
 	}
 }
