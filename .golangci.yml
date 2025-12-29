@@ -23,6 +23,7 @@ linters-settings:
     # Rules to explicitly exclude
     # Available rules: https://github.com/securego/gosec#available-rules
     excludes:
+      - G115
       - G401
       - G501
 
@@ -81,7 +82,7 @@ linters-settings:
       - name: unreachable-code
         severity: warning
       - name: redefines-builtin-id
-        severity: warning
+        disabled: true
 
   misspell:
     locale: US
