@@ -4,6 +4,26 @@
 
 ### Features
 
+* **build:** Support multi-architecture (amd64/arm64) Docker images pushed to GHCR
+* **build:** Upgrade to Terraform 1.13.5 internal packages
+* **ci:** Upgrade Go version to 1.23 across all workflows
+* **ci:** Update GitHub Actions to latest versions (setup-go@v5, checkout@v4, golangci-lint-action@v6)
+* **docker:** Use native cross-compilation for efficient multi-arch builds
+* Add contributor attribution to copyright notice
+
+### Bug Fixes
+
+* **build:** Remove incompatible external linker flags for CGO_ENABLED=0
+* **lint:** Replace deprecated `io/ioutil` with `io` and `os` packages
+* **lint:** Replace `io.WriteString` with `w.Write` for better performance
+* **lint:** Fix nil check warning in GCP state provider
+* **lint:** Rename `new` parameter to avoid shadowing builtin
+* **config:** Configure golangci-lint to exclude G115 and redefines-builtin-id rules
+
+## [2.4.1](https://github.com/dasomel/terraboard/compare/v2.4.0...v2.4.1) (2025-12-29)
+
+### Features
+
 * **build:** Upgrade to Terraform 1.13.5 and remove hashicorp/terraform dependency ([63a4452](https://github.com/dasomel/terraboard/commit/63a4452))
 * **build:** support multi-architecture (amd64/arm64) docker images pushed to GHCR
 * **ci:** Upgrade Go to 1.23 to fix goveralls build error ([562e8e3](https://github.com/dasomel/terraboard/commit/562e8e3))
