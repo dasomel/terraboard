@@ -120,7 +120,7 @@ func refreshDB(syncInterval uint16, d *db.Database, sp state.Provider) {
 	}
 }
 
-var version = "undefined"
+var version = "v2.5.0"
 
 func getVersion(w http.ResponseWriter, _ *http.Request) {
 	j, err := json.Marshal(map[string]string{
