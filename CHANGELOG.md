@@ -1,5 +1,13 @@
 # Changelog
 
+### [2.5.1](https://www.github.com/dasomel/terraboard/compare/v2.5.0...v2.5.1) (2026-01-01)
+
+
+### Bug Fixes
+
+* correctly apply public visibility requirement in .cursorrules ([0c5dcd1](https://www.github.com/dasomel/terraboard/commit/0c5dcd1eb01583d171ed0c745fb893c822325e96))
+* ensure GHCR package description is properly applied as OCI annotation ([11762c2](https://www.github.com/dasomel/terraboard/commit/11762c21558f7e3b79b679c055fb844d53911fad))
+
 ## [2.5.0](https://www.github.com/dasomel/terraboard/compare/v2.4.0...v2.5.0) (2026-01-01)
 
 
