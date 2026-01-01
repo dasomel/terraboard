@@ -23,7 +23,6 @@
 * **Rule**: Git Tag나 GitHub Package 생성 시, 빈 메시지를 사용하지 마십시오.
 * **Action**:
     * Tag 생성 시: `git tag -a v1.0.0 -m "Release description..."`과 같이 **주석(Annotation)과 설명**을 반드시 포함하십시오.
-    * Tag 생성 시: `git tag -a v1.0.0 -m "Release description..."`과 같이 **주석(Annotation)과 설명**을 반드시 포함하십시오.
     * Package: 패키지 메타데이터(OCI Labels)에 `org.opencontainers.image.description`을 포함하고, **패키지 공개 범위(Visibility)가 Public**인지 반드시 확인하십시오.
 
 ### Step 3: 릴리즈 노트 작성 (GitHub Release)
