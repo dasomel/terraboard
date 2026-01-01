@@ -16,6 +16,10 @@ RUN yarn run build
 
 FROM scratch
 LABEL maintainer="dasomell@gmail.com"
+LABEL org.opencontainers.image.title="Terraboard"
+LABEL org.opencontainers.image.description="A Web dashboard to inspect Terraform States"
+LABEL org.opencontainers.image.source="https://github.com/dasomel/terraboard"
+LABEL org.opencontainers.image.vendor="dasomel"
 WORKDIR /
 COPY --from=builder /etc/ssl/certs/ca-certificates.crt /etc/ssl/certs/
 COPY --from=builder /opt/build/terraboard /
