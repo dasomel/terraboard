@@ -1,2 +1,11 @@
 Dockerfile
 Dockerfile.dev
+.git
+.github
+.vscode
+.idea
+node_modules
+static/terraboard-vuejs/node_modules
+static/terraboard-vuejs/dist
+vendor
+*.log
